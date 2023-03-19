@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<link rel="manifest" href="manifest.json">
+		<html lang="pt-br"></html>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Um simples portfolio online de Rafael Ferreira">
+		<meta lang="pt"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" sizes="196x196" href="images/196.png">
+		<link rel="shortcut icon" sizes="128x128" href="images/128.png">
+		<link rel="icon" type="image/png" href="images/144.png">
+	</head>
+	<body >
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#work">Sobre</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contato</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.webp" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Olá! Eu sou <strong>Rafael</strong>.</h1>
+							</header>
+							<p>Esse é o meu <strong>Portfolio</strong>, e nele vou deixar meus principais projetos. <br> Futuramente pretendo adicionar novos projetos aqui.</p>
+							<a href="#work" class="button large scrolly">Sobre mim</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Um pequeno resumo sobre mim</h2>
+				
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span id="user-icon" class="fa fa-user-circle fa-5x" ></span>
+								<h3><br> Quem é Rafael?</h3>
+								<p>Sou uma pessoa que gosta bastante de tecnologia e muito curiosa com qualquer assunto que a envolve. </p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span id="language-icon" class="fa fa-code fa-5x" ></span>
+								<h3><br> Linguagens</h3>
+								<p>As linguagens que mais tenho conhecimento atualmente são: SQL, Java e Python</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span id="study-icon" class="fa fa-book fa-5x"></span>
+								<h3><br> Estudos</h3>
+								<p>Atualmente estou cursando o 3° período de Análise e Desenvolvimento de Sistemas (ADS). </p>
+							</section>
+						</div>
+					</div>
+					
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Principais Projetos</h2>
+						<p>(Novidades em breve)</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://clone-instagram-devrafael112.netlify.app/" class="image featured"><img src="images/pic01.webp" alt="" /></a>
+								<h3><a href="https://clone-instagram-devrafael112.netlify.app/" target="_blank">Clone Instagram</a></h3>
+								<p>Um dos primeiros projetos que fiz, bem básico e com apenas duas páginas, mas foi de grande importância para eu conseguir práticar o HTML e CSS</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://projetomichellesweets.netlify.app/" class="image featured"><img src="images/pic02.webp" alt="" /></a>
+								<h3><a href="https://projetomichellesweets.netlify.app/">Michelle Sweets</a></h3>
+								<p>Primeiro Projeto da faculdade realizado em grupo. Não conseguimos entregar tudo, porém adquiri aprendizados realizando esse projeto.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<div class="image featured"> <img src="images/pic03.jpg" alt=""/> </div>
+								<h3>Em breve</h3>
+								<p>.....</p>
+							</article>
+						</div>
+						
+						</div>
+					</div>
+					<footer>
+						<p>Entre em contato comigo</p>
+						<a href="#contact" class="button large scrolly">Contato</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Se quiser me envie um email</h2>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" enctype="text/plain" accept-charset="utf-8">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="nome" id="name" placeholder="Nome" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="assunto" id="subject" placeholder="Assunto" />
+									</div>
+									<div class="col-12">
+										<textarea name="menssagem" id="message" placeholder="Menssagem"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Enviar"/></li>
+											<li><input type="reset" value="Limpar" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Redes Sociais</h3>
+							<ul class="social">
+								<li><a href="https://www.linkedin.com/in/dev-rafael112/" class="icon brands fa-linkedin-in" target=""><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/Devrafael112" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+								
+							</ul>
+							<hr />
+						</div>
+					</div>
+					
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<script>
+				if (typeof navigator.serviceWorker !== 'undefined') {
+					navigator.serviceWorker.register('pwabuilder-sw.js')
+				}
+			</script>
+	</body>
+</html>

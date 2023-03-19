@@ -1,0 +1,151 @@
+{
+ 
+  "description": "Um simples portfolio online de Rafael Ferreira",
+  "dir": "ltr",
+  "name": "Portfolio Rafael",
+  "orientation": "any",
+  "short_name": "Portfolio Rafael",
+  "categories": [
+    "business",
+    "productivity",
+    "social"
+  ],
+  "icons": [
+    {
+      "src": "images/16.png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "images/20.png",
+      "sizes": "20x20"
+    },
+    {
+      "src": "images/29.png",
+      "sizes": "29x29"
+    },
+    {
+      "src": "images/32.png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "images/40.png",
+      "sizes": "40x40"
+    },
+    {
+      "src": "images/48.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/50.png",
+      "sizes": "50x50"
+    },
+    {
+      "src": "images/55.png",
+      "sizes": "55x55"
+    },
+    {
+      "src": "images/57.png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "images/58.png",
+      "sizes": "58x58"
+    },
+    {
+      "src": "images/60.png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "images/66.png",
+      "sizes": "66x66"
+    },
+    {
+      "src": "images/72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "images/76.png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "images/80.png",
+      "sizes": "80x80"
+    },
+    {
+      "src": "images/87.png",
+      "sizes": "87x87"
+    },
+    {
+      "src": "images/88.png",
+      "sizes": "88x88"
+    },
+    {
+      "src": "images/92.png",
+      "sizes": "92x92"
+    },
+    {
+      "src": "images/100.png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "images/102.png",
+      "sizes": "102x102"
+    },
+    {
+      "src": "images/114.png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "images/120.png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "images/128.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/152.png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "images/167.png",
+      "sizes": "167x167"
+    },
+    {
+      "src": "images/172.png",
+      "sizes": "172x172"
+    },
+    {
+      "src": "images/180.png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "images/196.png",
+      "sizes": "196x196"
+    },
+    {
+      "src": "images/216.png",
+      "sizes": "216x216"
+    },
+    {
+      "src": "images/256.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "images/512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/1024.png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "start_url" : "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#383838"
+}
